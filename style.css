@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Merienda:wght@300..900&display=swap');
+
+
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Kumbh Sans', sans, serif; 
 }
 
 .head{
@@ -53,12 +56,12 @@
 nav{
 	position: relative;
 	margin: 270px auto 0;
-	width: 590px;
+	/* width: 590px; */
 	height: 50px;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.2);
 	border-radius: 8px;
 	font-size: 0;
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.01);
 }
 nav a{
 	font-size: 1.05rem;
@@ -135,19 +138,52 @@ nav a:nth-child(5):hover~.animation{
 	left: 80%;
 }
 
+marquee{
+	color: blue;
+}
+
+/* HOME_BODY */
+
+.heading{
+	margin-top: 25px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: rgb(255, 139, 139);
+	width: 15%;
+	text-align: center;
+	color: white;
+	font-size: 1.2rem;
+}
 
 
-/* BODY */
+
+/* SPEAKERS_BODY */
+
+main{
+    margin: 25px;
+	margin-top: 5px;
+}
 
 .container{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.box{
+	margin: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
     height: 20%;
-    width: 20%;
+    width: 15%;
 }
 
-.container a{
+.container .box a{
     margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
 }
 
