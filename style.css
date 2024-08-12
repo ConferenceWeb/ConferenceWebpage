@@ -160,6 +160,15 @@ nav a{
 	
 }
 
+@media screen and (max-width: 400px) {
+	.nav-menu a{
+		font-size: 0.6rem;
+	}
+	
+}
+
+
+
 nav .animation{
 	position: absolute;
 	height: 100%;
@@ -288,11 +297,20 @@ main{
 	.container .box a{
 		font-size: 1rem;
 	}
+
+	.box{
+		height: 25%;
+		width: 20%;
+	}
 }
 
 @media screen and (max-width: 400px) {
 	.container .box a{
 		font-size: 0.8rem;
+	}
+	.box{
+		height: 30%;
+		width: 25%;
 	}
 }
 
