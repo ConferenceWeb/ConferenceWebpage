@@ -188,15 +188,22 @@ nav .start-home, a:nth-child(1):hover~.animation{
 	left: 0%;
 }
 
-nav .committees, a:nth-child(2):hover~.animation{
+nav .speakers, a:nth-child(2):hover~.animation{
 	width: 20%;
 	left: 20%;
 }
 
-nav .speakers, a:nth-child(3):hover~.animation{
+nav .registration, a:nth-child(3):hover~.animation{
 	width: 20%;
 	left: 40%;
 }
+
+
+nav .committees, a:nth-child(4):hover~.animation{
+	width: 20%;
+	left: 60%;
+}
+
 
 nav .venue, a:nth-child(5):hover~.animation{
 	width: 20%;
