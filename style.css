@@ -205,24 +205,24 @@ nav .speakers, a:nth-child(2):hover~.animation{
 }
 
 nav .abstract, a:nth-child(3):hover~.animation{
-	width: 16%;
+	width: 18%;
 	left: 30%;
 }
 
 nav .registration, a:nth-child(4):hover~.animation{
 	width: 18%;
-	left: 46%;
+	left: 48%;
 }
 
 
 nav .committees, a:nth-child(5):hover~.animation{
 	width: 20%;
-	left: 64%;
+	left: 66%;
 }
 
 nav .venue, a:nth-child(6):hover~.animation{
-	width: 16%;
-	left: 84%;
+	width: 14%;
+	left: 86%;
 }
 
 nav a:nth-child(2){
@@ -234,11 +234,11 @@ nav a:nth-child(2):hover~.animation{
 }
 
 nav a:nth-child(3){
-	width: 16%;
+	width: 18%;
 }
 
 nav a:nth-child(3):hover~.animation{
-	width: 16%;
+	width: 18%;
 	left: 30%;
 }
 
@@ -249,7 +249,7 @@ nav a:nth-child(4){
 
 nav a:nth-child(4):hover~.animation{
 	width: 18%;
-	left: 46%;
+	left: 48%;
 }
 
 nav a:nth-child(5){
@@ -257,15 +257,15 @@ nav a:nth-child(5){
 }
 nav a:nth-child(5):hover~.animation{
 	width: 20%;
-	left: 64%;
+	left: 66%;
 }
 
 nav a:nth-child(6){
-	width: 16%;
+	width: 14%;
 }
 nav a:nth-child(6):hover~.animation{
-	width: 16%;
-	left: 84%;
+	width: 14%;
+	left: 86%;
 }
 
 /* sliding bar */
