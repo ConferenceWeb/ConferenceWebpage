@@ -21,7 +21,7 @@
 /* main text on image */
 .title {
     text-align: center;
-    height: 60%;
+    height: 50%;
     width: 70%;
     align-self: center;
     align-items: center;
@@ -152,28 +152,31 @@ nav a{
 	.nav-menu{
 		width: 90%;
 	}
-	
+	.nav-menu a{
+		font-size: 0.9rem;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	.nav-menu{
 		width: 100%;
 	}
-	
+	.nav-menu a{
+		font-size: 0.8rem;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	.nav-menu a{
-		font-size: 0.75rem;
+		font-size: 0.65rem;
 	}
 	
 }
 
 @media screen and (max-width: 400px) {
 	.nav-menu a{
-		font-size: 0.55rem;
+		font-size: 0.5rem;
 	}
-	
 }
 
 /* hover effect on navigation bar */
@@ -334,6 +337,7 @@ main{
 	.box{
 		height: 30%;
 		width: 25%;
+		margin: 20px;
 	}
 }
 
@@ -344,6 +348,7 @@ main{
 	.box{
 		height: 30%;
 		width: 27%;
+		margin: 10px;
 	}
 }
 
