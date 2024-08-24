@@ -348,7 +348,10 @@ main{
 	.box{
 		height: 30%;
 		width: 27%;
-		margin: 7px;
+		margin: 7.5px;
+	}
+	.main{
+		margin: 15px;
 	}
 }
 
