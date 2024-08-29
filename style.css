@@ -402,15 +402,12 @@ main{
 .payment{
 	border: 1px solid black;
 	width: 100%;
-	/* height: 40vh; */
 	margin-top: 10px;
-	/* margin-right: 20px; */
-	/* margin-bottom: 30px; */
 }
 
 .pymnt-detail{
 	font-size: 1.1rem;
-	margin: 7.5px;
+	margin: 10px;
 }
 
 .pymnt-inf{
