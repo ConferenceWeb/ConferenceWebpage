@@ -21,7 +21,7 @@
 /* main text on image */
 .title {
     text-align: center;
-    height: 50%;
+    height: 60%;
     width: 70%;
     align-self: center;
     align-items: center;
@@ -315,6 +315,28 @@ main{
     text-decoration: none;
     color: black;
     font-size: 1.3rem;
+}
+
+.Sponsors_container{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.Sponsors_img1{
+	margin: 20px;
+	/* width: 20%; */
+	background-size: cover;
+}
+
+.Sponsors_img2{
+	margin: 20px;
+}
+
+.Sponsors_img3{
+	margin: 20px;
 }
 
 @media screen and (max-width: 900px) {
